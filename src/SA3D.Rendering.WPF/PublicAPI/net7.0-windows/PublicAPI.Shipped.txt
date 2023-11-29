@@ -1,0 +1,24 @@
+﻿#nullable enable
+override SA3D.Rendering.WPF.RenderControl.OnKeyDown(System.Windows.Input.KeyEventArgs! e) -> void
+override SA3D.Rendering.WPF.RenderControl.OnKeyUp(System.Windows.Input.KeyEventArgs! e) -> void
+override SA3D.Rendering.WPF.RenderControl.OnMouseDown(System.Windows.Input.MouseButtonEventArgs! e) -> void
+override SA3D.Rendering.WPF.RenderControl.OnMouseLeave(System.Windows.Input.MouseEventArgs! e) -> void
+override SA3D.Rendering.WPF.RenderControl.OnMouseMove(System.Windows.Input.MouseEventArgs! e) -> void
+override SA3D.Rendering.WPF.RenderControl.OnMouseUp(System.Windows.Input.MouseButtonEventArgs! e) -> void
+override SA3D.Rendering.WPF.RenderControl.OnMouseWheel(System.Windows.Input.MouseWheelEventArgs! e) -> void
+override SA3D.Rendering.WPF.RenderControl.OnRenderSizeChanged(System.Windows.SizeChangedInfo! info) -> void
+override SA3D.Rendering.WPF.XAML.WndInputSettings.OnKeyDown(System.Windows.Input.KeyEventArgs! e) -> void
+SA3D.Rendering.WPF.RenderControl
+SA3D.Rendering.WPF.RenderControl.RenderControl(SA3D.Rendering.RenderContext! context) -> void
+SA3D.Rendering.WPF.XAML.UcInputSetting
+SA3D.Rendering.WPF.XAML.UcInputSetting.Code.get -> SA3D.Rendering.Input.InputCode
+SA3D.Rendering.WPF.XAML.UcInputSetting.Code.set -> void
+SA3D.Rendering.WPF.XAML.UcInputSetting.InitializeComponent() -> void
+SA3D.Rendering.WPF.XAML.UcInputSetting.UcInputSetting(SA3D.Rendering.WPF.XAML.WndInputSettings! window, System.Reflection.PropertyInfo! field) -> void
+SA3D.Rendering.WPF.XAML.UcSettingsCategory
+SA3D.Rendering.WPF.XAML.UcSettingsCategory.InitializeComponent() -> void
+SA3D.Rendering.WPF.XAML.UcSettingsCategory.Title.get -> string!
+SA3D.Rendering.WPF.XAML.UcSettingsCategory.UcSettingsCategory(string! title) -> void
+SA3D.Rendering.WPF.XAML.WndInputSettings
+SA3D.Rendering.WPF.XAML.WndInputSettings.WndInputSettings(System.Configuration.ApplicationSettingsBase! settings) -> void
+static SA3D.Rendering.WPF.XAML.UcInputSetting.InputCodes -> SA3D.Rendering.Input.InputCode[]!
