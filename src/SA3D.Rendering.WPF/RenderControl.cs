@@ -73,7 +73,7 @@ namespace SA3D.Rendering.WPF
 
 			GLWpfControlSettings settings = new()
 			{
-				GraphicsContextFlags = ContextFlags.ForwardCompatible,
+				ContextFlags = ContextFlags.ForwardCompatible,
 				MajorVersion = 4,
 				MinorVersion = 6
 			};
