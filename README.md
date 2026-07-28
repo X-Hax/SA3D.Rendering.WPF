@@ -1,3 +1,7 @@
+> [!WARNING]
+> This repository is no longer being worked on!<br/>
+> It will be replaced by [SA3D.Rendering.Avalonia](https://github.com/X-Hax/SA3D.Rendering.Avalonia)
+
 # SA3D.Rendering.WPF
 Supplies a WPF control for displaying and handling a `SA3D.Rendering` render context.
 
